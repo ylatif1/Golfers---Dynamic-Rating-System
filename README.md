@@ -10,9 +10,9 @@ Golf rankings are usually based on points tables that don't display the skill di
 
 ## Approach
 1. **Data:** Using results from all male **professional tournaments, from 2018 - 2022**, provided by Smartodds (https://www.smartodds.co.uk/)
-2. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles, which uses each competitor's rating, /beta, to produce a probability for each tournament outcome.
-3. **Dynamic ratings:** Updates each competitors rating, /Beta, after they compete, where each competitor has a learning rate, \gamma, helping them reaches a realistic rating quicker, instead of lagging behind. 
-4. **Fitting & validation:** Used R to clean, format and run the model algorithm on the Smartodds data.
+2. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles, which uses each **competitors rating, β**, to produce a probability for each tournament outcome.
+3. **Dynamic ratings:** Updates each **competitors rating, β**, after each round in a competition. Each competitor also has their own **learning rate, γ**, which helps them reach a realistic rating quickly instead of lagging behind. 
+4. **Fitting & validation:** Used R to clean and format the Smartodds data and run the rating algorithm on it.
 
 The code used is shown below, but unfortunately I cannot share the data used, as it is Smartodds confidential data. 
 
