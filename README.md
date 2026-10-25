@@ -9,10 +9,11 @@ Golf rankings are usually based on points tables that don't display the skill di
 - produces **probabilities** for future outcomes.
 
 ## Approach
-1. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles. Plackett-Luce models a ranking as a sequence of choices: the winner is "chosen" from the whole field in proportion to their strength, then second place from those remaining, and so on.
-2. **Dynamic ratings:** <!-- Describe how ratings update over time, e.g. time-weighting older results, a state-space / Kalman-style update, or refitting on a rolling window. -->
-3. **Data:** Four years of professional competition results. <!-- Source, e.g. which tour(s), number of tournaments and players. -->
-4. **Fitting & validation:** Implemented in R. <!-- How you estimated parameters (e.g. maximum likelihood, MM algorithm) and how you validated (e.g. train on years 1–3, test on year 4; log-loss or accuracy vs. official rankings). -->
+1. **Data:** Using results from all male **professional tournaments, from 2018 - 2022**, provided by Smartodds (https://www.smartodds.co.uk/)
+2. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles, which uses each competitor's rating, /beta, to produce a probability for each tournament outcome.
+3. **Dynamic ratings:** Updates each competitors rating, /Beta, after they compete, where each competitor has a learning rate which ... <!-- Describe how ratings update over time, e.g. time-weighting older results, a state-space / Kalman-style update, or refitting on a rolling window. -->
+4. **Data:** Using results from all male **professional tournaments, from 2018 - 2022**, provided by Smartodds (https://www.smartodds.co.uk/)
+5. **Fitting & validation:** Implemented in R. <!-- How you estimated parameters (e.g. maximum likelihood, MM algorithm) and how you validated (e.g. train on years 1–3, test on year 4; log-loss or accuracy vs. official rankings). -->
 
 ## Results
 <!-- Add 2–4 concrete results. Examples of what to show:
