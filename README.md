@@ -17,6 +17,7 @@ Golf rankings are usually based on points tables that don't display the skill di
 The code used is shown below, but unfortunately I cannot share the data used, as it is Smartodds confidential data. 
 
 ## Results
+![Dissertation poster](Poster_for_Project.jpg)
 (Poster_for_Project.png)
 For the full methodology, maths, alternate models and results, [read the full dissertation](Dissertation.pdf)
 <!-- Add 2–4 concrete results. Examples of what to show:
