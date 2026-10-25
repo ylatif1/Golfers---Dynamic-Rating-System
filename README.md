@@ -1,12 +1,12 @@
 # Dynamic Rating System for Professional Golfers
 
-My undergraduate dissertation (BSc Mathematics & Statistics, Newcastle University). A rating system that ranks professional golfers and predicts competition outcomes, with ratings that update dynamically as new results come in.
+In my undergraduate dissertation project, I created a rating system that ranks professional golfers and predicts competition outcomes, with ratings that update dynamically as new results come in.
 
 ## The problem
-Golf rankings are usually based on points tables that don't directly give you a probability of who will win next week. I wanted a model that:
-- uses the **full finishing order** of each tournament, not just winners
-- **updates over time** as form changes
-- produces **probabilities** for future outcomes
+Golf rankings are usually based on points tables that don't display the skill difference between each player or the probability that they win their next competition. I wanted a model that:
+- produces an **individual rating for each competitor**, which represents that competitors skill,
+- **updates over time** as players compete,
+- produces **probabilities** for future outcomes.
 
 ## Approach
 1. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles. Plackett-Luce models a ranking as a sequence of choices: the winner is "chosen" from the whole field in proportion to their strength, then second place from those remaining, and so on.
