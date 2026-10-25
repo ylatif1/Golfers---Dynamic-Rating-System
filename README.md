@@ -17,10 +17,8 @@ Golf rankings are usually based on points tables that don't display the skill di
 The code used is shown below, but unfortunately I cannot share the data used, as it is Smartodds confidential data. 
 
 ## Results
-For the full methodology, maths, alternate models and results, [read the full dissertation](Dissertation.pdf), but the ![poster summarises](Poster_for_project.pdf) the methodology and results: 
+For the full methodology, maths, alternate models and results, [read the full dissertation](Dissertation.pdf), but the ![poster](Poster_for_project.pdf) (download for a better view) summarises the methodology and results: 
 ![Dissertation poster](Poster_for_Project.jpg)
-(Poster_for_Project.png)
-For the full methodology, maths, alternate models and results, [read the full dissertation](Dissertation.pdf)
 <!-- Add 2–4 concrete results. Examples of what to show:
 - Out-of-sample log-likelihood / accuracy compared with a baseline (e.g. official world ranking)
 - How often the model's top-10 favourites finished top 10
