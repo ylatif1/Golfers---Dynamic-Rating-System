@@ -20,7 +20,7 @@ The code used is shown below, but unfortunately I cannot share the data used, as
 For the full methodology, maths, alternate models and results, [read the full dissertation](Dissertation.pdf), but the ![poster](Poster_for_project.pdf) (download for a better view) summarises the methodology and results: 
 ![Dissertation poster](Poster_for_Project.jpg)
 
-Overall, the project was successful, the model returns a skill rating, dynamically updates, predicts tournament outcomes and matches very well with the official golf rankings.
+Overall, the project was successful, the model returns a skill rating, dynamically updates, predicts tournament outcomes and matches very well with the official golf rankings (shown in table 1 off the Poster).
 
 
 ## Final Algorithm's Functions, in R: 
