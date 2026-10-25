@@ -10,11 +10,11 @@ Golf rankings are usually based on points tables that don't display the skill di
 
 ## Approach
 1. **Data:** Using results from all male **professional tournaments, from 2018 - 2022**, provided by Smartodds (https://www.smartodds.co.uk/)
-          - 
-3. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles, which uses each competitor's rating, /beta, to produce a probability for each tournament outcome.
-4. **Dynamic ratings:** Updates each competitors rating, /Beta, after they compete, where each competitor has a learning rate which ... <!-- Describe how ratings update over time, e.g. time-weighting older results, a state-space / Kalman-style update, or refitting on a rolling window. -->
-5. **Data:** Using results from all male **professional tournaments, from 2018 - 2022**, provided by Smartodds (https://www.smartodds.co.uk/)
-6. **Fitting & validation:** Implemented in R. <!-- How you estimated parameters (e.g. maximum likelihood, MM algorithm) and how you validated (e.g. train on years 1–3, test on year 4; log-loss or accuracy vs. official rankings). -->
+2. **Model:** Derived a **Generalised Plackett-Luce (GPL)** model from first principles, which uses each competitor's rating, /beta, to produce a probability for each tournament outcome.
+3. **Dynamic ratings:** Updates each competitors rating, /Beta, after they compete, where each competitor has a learning rate, \gamma, helping them reaches a realistic rating quicker, instead of lagging behind. 
+4. **Fitting & validation:** Used R to clean, format and run the model algorithm on the Smartodds data.
+
+The code used is shown below, but unfortunately I cannot share the data used, as it is Smartodds confidential data. 
 
 ## Results
 <!-- Add 2–4 concrete results. Examples of what to show:
